@@ -1,9 +1,9 @@
 {
-  "name": "basic-ws",
+  "name": "BASIC-WS",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "tsc -b && node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
